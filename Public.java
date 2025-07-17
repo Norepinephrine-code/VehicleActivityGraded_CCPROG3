@@ -1,6 +1,6 @@
 public interface Public {
 
-    public abstract int getFare();
-    public abstract void setFare();
+   int getFare();
+   void setFare();
 
 }
