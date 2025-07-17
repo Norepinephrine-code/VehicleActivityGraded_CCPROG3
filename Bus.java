@@ -15,5 +15,10 @@ public class Bus extends Vehicle implements Public {
         this.fare = 30;
     }  
 
+    @Override
+    public String toString() {
+
+        return "Vehicle: Bus\n Maximum Capacity: " + this.capacity + "\n Start: " + this.startPoint + "\n End: " + this.endPoint + "\n Fare: " + this.fare;
+    }
 
 }
