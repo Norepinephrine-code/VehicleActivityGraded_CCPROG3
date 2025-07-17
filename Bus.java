@@ -1,6 +1,6 @@
 public class Bus extends Vehicle implements Public {
 
-    private final int fare = 30;
+    private int fare = 30;
 
     public Bus (int numOfPassengers, String startPoint, String endPoint) {
         this.capacity = 30;
@@ -11,7 +11,9 @@ public class Bus extends Vehicle implements Public {
         return this.fare;
     }
 
-    public void setFare(int distance) {}  // Do Nothing
+    public void setFare(int distance) {
+        this.fare = 30;
+    }  
 
 
 }
