@@ -21,5 +21,11 @@ public class Jeepney extends Vehicle implements Public {
         }
     }
 
+    @Override
+    public String toString() {
+
+        return "Vehicle: Jeepney\n Maximum Capacity: " + this.capacity + "\n Start: " + this.startPoint + "\n End: " + this.endPoint + "\n Fare: " + this.fare;
+    }
+
 
 }
