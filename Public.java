@@ -1,8 +1,6 @@
-public abstract interface Public {
-
-    protected int fare;
+public interface Public {
 
     public abstract int getFare();
-    public abstract int setFare();
+    public abstract void setFare();
 
 }
