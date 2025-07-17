@@ -5,5 +5,10 @@ public class Helicopter extends Vehicle {
         super(numOfPassengers,startPoint,endPoint);
     }
 
+    @Override
+    public String toString() {
+
+        return "Vehicle: Helicopter\n Maximum Capacity: " + this.capacity + "\n Start: " + this.startPoint + "\n End: " + this.endPoint;
+    }
 
 }
